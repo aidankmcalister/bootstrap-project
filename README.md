@@ -2,7 +2,7 @@
 
 Bootstrap Portfolio Project
 
-###Technologies
+##Technologies
 - CSS (Bootstrap)
 - JavaScript
 - HTML
