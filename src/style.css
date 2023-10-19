@@ -7,3 +7,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.left-position {
+  transform: translateX(-73%);
+  transition: transform 0.5s;
+}
+
+.left-position.extended {
+  transform: translateX(0%);
+}
+
+.left-position.extended:hover {
+  transform: translateX(-12%);
+}
+
+.left-position:not(.extended):hover {
+  transform: translateX(-65%);
+}
