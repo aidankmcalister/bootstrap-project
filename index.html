@@ -12,13 +12,22 @@
 </head>
 
 <body class="bg-dark" style="font-family: 'Inconsolata', sans-serif;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <a class="navbar-brand" href="#">Aidan McAlister</a>
+    <nav class="mx-4 navbar navbar-expand-lg navbar-dark" style="background-color: ;">
+        <a class="navbar-brand fs-4" href="#">
+            <strong>
+                <span style="color: #FA7268">&lt;</span>
+            </strong>
+            Aidan McAlister
+            <strong>
+                <span style="color: #C62368;">/</span>
+                <span style="margin-left: -.5rem; color: #FA7268;">&gt;</span>
+            </strong>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="navbar-links" class="collapse navbar-collapse ml-auto">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto fs-5">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home</a>
                 </li>
@@ -35,13 +44,17 @@
         </div>
     </nav>
 
-    <div class="d-flex container align-items-center" style="height: 50vh; width: 65vw;">
+    <div class="d-flex container align-items-center" style="height: 75vh; width: 75vw;">
         <div class="position-absolute end-0 container bg-body rounded" style="--bs-bg-opacity: .5; margin-top: 15rem;">
             <h1 style="font-family: 'Karla', sans-serif;">Welcome to My Portfolio</h1>
             <p>I'm Aidan McAlister, and I live in Tulsa, Oklahoma.<br />This is my portfolio page created with
                 Bootstrap.</p>
         </div>
-        <img class="h-100 img-fluid rounded-circle" src="assets/imgs/me-Edit.png" alt="Portrait of me">
+        <img class="h-75 img-fluid rounded-circle" src="assets/imgs/me-Edit.png" alt="Portrait of me">
+        <div class="d-flex align-items-end justify-content-end" style="margin-top: 10rem; height: 100%; width: 100%;">
+            <img class="img-fluid rounded-circle" src="assets/imgs/mick-haupt-IuLyOc751nU-unsplash.jpg"
+                alt="New Portrait" style="height: 75%; width: 75%; object-fit: cover;">
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
